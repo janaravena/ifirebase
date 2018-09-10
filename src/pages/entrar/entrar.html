@@ -16,4 +16,14 @@
 
 <ion-content padding>
 
+	<button ion-button block class="facebook" (click)="facebookLogin()" *ngIf="!userProfile">
+		<ion-icon name="logo-facebook"></ion-icon>
+		Entrar con Facebook
+	</button>
+
+	<button ion-button block class="logout" (click)="logout()" *ngIf="userProfile">
+		<ion-icon name="log-out"></ion-icon>
+		Salir
+	</button>
+
 </ion-content>
