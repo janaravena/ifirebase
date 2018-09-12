@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.everis.ionicfirebase" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>iFirebase</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <description>Taller de Ionic con Firebase</description>
+    <author email="aaravens@everis.com" href="http://everis.com/">Everis</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -40,8 +40,8 @@
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
         <config-file parent="/resources" target="./res/values/strings.xml">
-            <string name="fb_app_id">275407646516984</string>
-            <string name="fb_app_name">iFirebase</string>
+            <string name="fb_app_id">302915440302370</string>
+            <string name="fb_app_name">ionicFirebase</string>
         </config-file>
     </platform>
     <platform name="ios">
@@ -88,8 +88,8 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <engine name="ios" spec="~4.5.5" />
     <plugin name="cordova-plugin-facebook4" spec="^2.4.0">
-        <variable name="APP_ID" value="275407646516984" />
-        <variable name="APP_NAME" value="iFirebase" />
+        <variable name="APP_ID" value="302915440302370" />
+        <variable name="APP_NAME" value="ionicFirebase" />
         <variable name="ANDROID_SDK_VERSION" value="4.+" />
     </plugin>
     <engine name="android" spec="~7.0.0" />

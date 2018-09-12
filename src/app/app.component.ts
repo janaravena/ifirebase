@@ -6,13 +6,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import * as firebase from 'firebase';
 
 export const firebaseConfig = {
-
-      apiKey: "AIzaSyCh1FR81ADDfSb2t3JpTeBpT3cXe3cL5P8",
-      authDomain: "ifirebase-99ea9.firebaseapp.com",
-      databaseURL: "https://ifirebase-99ea9.firebaseio.com",
-      projectId: "ifirebase-99ea9",
-      storageBucket: "",
-      messagingSenderId: "886018105460"
+      apiKey: "AIzaSyCng4NK9ayWKUs8TwAD0ZLVC3imEl0MySs",
+      authDomain: "ionicfirebase-46da1.firebaseapp.com",
+      databaseURL: "https://ionicfirebase-46da1.firebaseio.com",
+      projectId: "ionicfirebase-46da1",
+      storageBucket: "ionicfirebase-46da1.appspot.com",
+      messagingSenderId: "351425701896"
 };
 
 @Component({
